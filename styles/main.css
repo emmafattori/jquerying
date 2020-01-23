@@ -14,6 +14,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 nav{
 	display:flex;
+	margin-top:3%;
 }
 
 .company_imprint{
@@ -43,7 +44,6 @@ li{
 	list-style-type: none;
 	color: grey;
 	padding: 5px;
-	position:relative;
 }
 
 a{
@@ -59,10 +59,25 @@ a:hover{
 
 .press_releases{
 	position:absolute;
-	margin: 10px 10px 10px 0;
+	right:0;
+	left:0;
+	background-color: #025333;
+
+	margin: 10% 10px 10px 0;
 }
 
 .press_releases li{
-	 padding: 15px 20px 12px 0;
+	 padding: 15px;
+	 color: white;
+	 margin:0 auto;
 }
 
+.press_releases a{
+	padding: 5px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.press_releases a:hover{
+	color: white;
+}
